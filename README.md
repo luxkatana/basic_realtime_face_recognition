@@ -1,8 +1,21 @@
 # A simple realtime face recognition application using OpenCV 
 
-## How this works
-
+## What is this magic?
 It basically checks for one specific face based on a jpg file.
+
+## How it works
+<ol>
+<li> it'll make a "sample" of the face. This can be obtained with the capture_face_dump.py script</li>
+</li> 
+<li>The "sample" of the face can be found in ./target_face.jpg</li>
+<li>
+The main.py script will use the device's camera to process each frame
+</li>
+<li>It'll do an analysis of the face dumped in target_face.jpg</li>
+</ol>
+Note that the speed of analyzing the face is determined by the hardware.
+
+On my computer (Intel i5 4 cores & 8GB ram) it took **3 seconds**  to process every frame. That can be different between each computer.
 
 ## How to use
 1.Install the required modules
