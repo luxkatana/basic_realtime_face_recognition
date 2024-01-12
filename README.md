@@ -35,8 +35,7 @@ python capture_face_dump.py
 <li> Press Q to close the application </li>
 </ul>
 
-
-3. And finally, run the main script
+3.And finally, run the main script
 ```
 python main.py
 ```
